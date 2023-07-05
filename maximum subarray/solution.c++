@@ -1,6 +1,6 @@
 /*
-    The general idea is using sliding window algorithm
-    Moving a subarray if there is any cumulative sum with negative value 
+    The general idea is using sliding Kadane Algorithm
+    Moving a subarray if there is any cumulative sum with negative value change current cumulative sum with 0
     If next data negative, the cumulative sum will be even worse
     If next data positive, the next data is a new maximum sum
 
