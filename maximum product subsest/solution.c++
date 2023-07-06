@@ -2,6 +2,10 @@
     The general idea is using sliding Kadane Algorithm
     if there is any cumulative product with zero value(0) change to one(1)
 
+    We need to travese array twice RTL and LTR. There is case when the array value
+    [-1, 2, 3, 4]
+    If that case only using LTR the maximum result is -24 while the answer is 24 if we trace with RTL method
+
     Time Complexity : O(N)
     Space Complexity: O(1)
 */
