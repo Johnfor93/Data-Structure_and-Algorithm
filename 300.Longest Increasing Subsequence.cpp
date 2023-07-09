@@ -30,7 +30,13 @@ int lengthOfLIS(vector<int>& nums) {
 
     // Trying O(n log n) solution
 
-    // The approach is every iteration is
+    // The approach is every iteration is building a array of longest subsequence available
+    // Added data when the new element is greater than last index of array of longest subsequence available
+    // If element that iterated not the greatest on array of longest subsequence available
+    // Try to change the lowest data that near to iterated element
+    // For example:
+    // The new data is 2 but in longest subsequence array exit [0,1,3,4]
+    // So we need to change 3 with 2
 int lengthOfLIS(vector<int>& nums) {
     int n = nums.size();
     // It's keep the subSequence element's
