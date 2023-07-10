@@ -6,6 +6,12 @@
  *     ListNode(int x) : val(x), next(NULL) {}
  * };
  */
+/*
+    Just implementation of Floyd's Turtle Hare Algorithm Cycle Detection
+
+    Time Complexity: O(N)
+    Space Complexity: O(1)
+*/
 class Solution {
 public:
     bool hasCycle(ListNode *head) {
